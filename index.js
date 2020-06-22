@@ -13,7 +13,7 @@
     console.log(c);
 
 
-//#1.8 내용
+//#1.8 Data Types on JS
     /*
         일반적으로 진짜 필요해서 let를 사용하는 경우를 제외하고,
         웬만하면 const로 변수를 선언한다.
@@ -32,3 +32,10 @@
     //Float = 실수
         const fl = 4.3;
         console.log(fl);
+
+
+//1.9 Organizing Data with Arrays
+
+    const some = "something";
+    const daysOfWeek = ["mon", "tue", "wed",3, 4.2, true, some];
+    console.log(daysOfWeek);
