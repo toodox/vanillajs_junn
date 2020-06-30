@@ -34,8 +34,40 @@
         console.log(fl);
 
 
-//1.9 Organizing Data with Arrays
+//1.9 Organizing Data with Arrays (배열)
 
     const some = "something";
     const daysOfWeek = ["mon", "tue", "wed",3, 4.2, true, some];
     console.log(daysOfWeek);
+
+//1.10 Organizing Data with Objects (구조체)
+
+    const junnInfo = {
+        name : "junn",
+        age : 23,
+        gender: "Female",
+        isHandsome: true,
+        favMovies: ["Avengers", "Lord Of The Ring", "God father"],
+        favFood: [
+            {
+                name: "Kimchi",
+                fatty: false
+            },
+            {
+                name: "Bulgogi burger",
+                fatty: true
+            }
+        ]
+    }
+    //구조체 안에 배열or구조체 삽입 가능, 배열[] 안에 구조체{} 삽입 가능 
+
+    junnInfo.gender = "Male"; // 구조체 값 나중에 변경 가능
+    /*
+        구조체 안에 있는 값은 바꿀 수 있지만,
+        구조체 자체(junnInfo)는 바꿀 수 없음.
+        ex) junnInfo = true (x)
+    */
+
+    console.log(junnInfo.gender);
+    console.log(junnInfo.favMovies[1]);
+    console.log(junnInfo.favFood[0].name);
