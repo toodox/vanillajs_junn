@@ -68,9 +68,9 @@
         ex) junnInfo = true (x)
     */
 
-    console.log(junnInfo.gender);
-    console.log(junnInfo.favMovies[1]);
-    console.log(junnInfo.favFood[0].name);
+    console.log(junnInfo.gender); //Output : Male
+    console.log(junnInfo.favMovies[1]); //Output : Lord Of the Ring
+    console.log(junnInfo.favFood[0].name); //Output : Kimchi
 
     //#2.0 Function
 
