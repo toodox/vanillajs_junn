@@ -71,3 +71,12 @@
     console.log(junnInfo.gender);
     console.log(junnInfo.favMovies[1]);
     console.log(junnInfo.favFood[0].name);
+
+    //#2.0 Function
+
+    function sayHello(potato /*argument*/, apple) {
+        console.log("Hello!", potato, "\nyour number is", apple);
+    } //함수 선언
+
+    sayHello("junn", 15); //함수호출
+    
